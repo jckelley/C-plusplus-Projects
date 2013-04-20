@@ -1,0 +1,9 @@
+
+
+main: ListOfParts.o Exercise.o
+		g++ -o main ListOfParts.o Exercise.o
+
+ListOfParts.o: ListOfParts.cpp ListOfParts.h
+				g++ -c ListOfParts.cpp ListOfParts.h
+
+Exercise.o: Exercise.cpp

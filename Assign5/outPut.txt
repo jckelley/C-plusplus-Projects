@@ -1,0 +1,34 @@
+Student Grade Summary
+---------------------
+
+ENGLISH CLASS
+
+Student                       Final     Final     Letter
+Name                          Exam      Avg       Grade 
+--------------------------------------------------------
+Marvin Dipwart                  88      80.30       B
+James T.  Kirk                  88      80.80       B
+Richard Nixon                   70      75.20       C
+Donald Duck                     65      72.40       C
+
+
+HISTORY CLASS
+
+Student                       Final     Final     Letter
+Name                          Exam      Avg       Grade 
+--------------------------------------------------------
+Joe Schmuckatelli               90      84.25       B
+Monica Lewinsky                 78      71.40       C
+Abraham Lincoln                 75      69.60       C
+Daffy Duck                      70      66.25       D
+
+
+MATH CLASS
+
+Student                       Final     Final     Letter
+Name                          Exam      Avg       Grade 
+--------------------------------------------------------
+Bugsl Bunny                   93      94.83       A
+Jimmy Crack Corn                68      65.33       D
+William Clinton                100      73.22       C
+George Bush                     75      62.56       D

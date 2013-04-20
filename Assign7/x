@@ -1,0 +1,49 @@
+template <class NODETYPE>
+void List<NODETYPE>::removeMiddle( const NODETYPE &value, int i)
+{
+
+	ListNode <NODETYPE> * tempPtr = firstPtr;
+	ListNode <NODETYPE> * prevPtr;
+
+	int counter=1;
+	ListNode <NODETYPE> *newPtr = getNewNode(value);
+   // * ***************************************************************
+   // * *  Case 1.                                                    *
+   // * ***************************************************************
+   if(isEmpty())
+   {
+   	cout << "ERROR: NO ITEMS IN LIST. UNABLE TO REMOVE ITEM" << endl;
+   	value = NULL;
+   	return;
+   }
+   // * ***************************************************************
+   // * *  Case 2.                                                    *
+   // * ***************************************************************
+   if(i <= 0 || i > RecorderCounter)
+   {
+   		cout << "ERROR: NO ITEM AT THIS POSITION. UNABLE TO REMOVE ITEM" << endl;
+   		return;
+   }
+   else
+   {
+   int counter = 0;
+   	while(counter <= i)
+   	{
+   		counter++;
+   		prevPtr = tempPtr;
+   		tempPtr = tempPtr->nextPtr;
+   	}
+   	prevPtr->nextPtr = tempPtr->nextPtr;
+   	value = tempPtr;
+   	delete tempPtr;
+   	return;
+
+   }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,6 @@
+project.exe: date.o driver.o
+		g++ date.o driver.o -o project.exe
+
+date.o: date.cpp date.h
+	g++ -c date.cpp
+date.h
