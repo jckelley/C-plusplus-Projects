@@ -1,0 +1,1 @@
+These are Files created for an Object-Oriented Programming Class I took at Florida State University. These Assignments represent a through understanding of C++ Object-Oriented Programming.
