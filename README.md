@@ -1,1 +1,1 @@
-These are Files created for an Object-Oriented Programming Class I took at Florida State University. These Assignments represent a through understanding of C++ Object-Oriented Programming.
+These are Files created for an Object-Oriented Programming Class I took at Florida State University. These Assignments represent a through understanding of C++ Object-Oriented Programming. These files are not to be used for any other purpose than review of previous work. Please do not use this work and claim it as your own.
