@@ -3,7 +3,7 @@
 	File: register.h
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     

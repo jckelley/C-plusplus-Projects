@@ -3,7 +3,7 @@
 	File: register.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -68,7 +68,7 @@ const int INC = 5;
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Register::Register()
 {
@@ -86,7 +86,7 @@ Register::Register()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Register::~Register()
 {
@@ -100,7 +100,7 @@ Register::~Register()
 // * Parameter Description: Register id and intial amount in Reisger
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Register::Register(const int id, const double int_amt)
 {
@@ -119,7 +119,7 @@ Register::Register(const int id, const double int_amt)
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 int Register::GetID() const
 {
@@ -132,7 +132,7 @@ int Register::GetID() const
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Register::GetAmount() const
 {
@@ -147,7 +147,7 @@ double Register::GetAmount() const
 // * Parameter Description: Item being rung up, Price of Item
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::RingUpSale(const ItemType item_type, const double item_price)
 {
@@ -169,7 +169,7 @@ void Register::RingUpSale(const ItemType item_type, const double item_price)
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::ShowLast() const
 {
@@ -186,7 +186,7 @@ void Register::ShowLast() const
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::ShowAll() const
 {
@@ -204,7 +204,7 @@ void Register::ShowAll() const
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::Cancel()
 {
@@ -228,7 +228,7 @@ void Register::Cancel()
 // * Parameter Description: The amount of Sales you wish to find total SalesTax
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Register::SalesTax(const int n) const
 {
@@ -250,7 +250,7 @@ double Register::SalesTax(const int n) const
 // * Parameter Description: NONE
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::Shrink()
 {
@@ -275,7 +275,7 @@ void Register::Shrink()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Register::Grow()
 {

@@ -3,7 +3,7 @@
 	File: sale.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -73,7 +73,7 @@ string ItemString(ItemType x);
 // * Parameter Description: Passes an Item Type
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 string ItemString(ItemType x)
 {
@@ -107,7 +107,7 @@ string ItemString(ItemType x)
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Sale::Sale()
 {
@@ -123,7 +123,7 @@ Sale::Sale()
 // * Parameter Description: Item being rung up, and Amount of item
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Sale::MakeSale(ItemType x, double amt)
 {
@@ -150,7 +150,7 @@ void Sale::MakeSale(ItemType x, double amt)
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 ItemType Sale::Item()
 {
@@ -163,7 +163,7 @@ ItemType Sale::Item()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Sale::Price()
 {
@@ -176,7 +176,7 @@ double Sale::Price()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Sale::Tax()
 {
@@ -189,7 +189,7 @@ double Sale::Tax()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Sale::Total()
 {
@@ -202,7 +202,7 @@ double Sale::Total()
 // * Parameter Description: None
 // *
 // * Date: 02/24/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Sale::Display()
 {

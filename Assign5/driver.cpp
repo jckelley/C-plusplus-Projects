@@ -3,7 +3,7 @@
 	File: student.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -73,7 +73,7 @@ char returnGrade(double FGrade);
 // * Parameter Description: Double Final grade value
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 char returnGrade(double FGrade)
 {

@@ -3,7 +3,7 @@
 	File: student.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -63,7 +63,7 @@ using namespace std;
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Student::Student()
 {
@@ -82,7 +82,7 @@ Student::Student()
 // * 						student
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Student::Student(const string F,const string L)
 {
@@ -98,7 +98,7 @@ Student::Student(const string F,const string L)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 string Student::getLNAME() const
 {
@@ -111,7 +111,7 @@ string Student::getLNAME() const
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 string Student::getFNAME() const
 {
@@ -132,7 +132,7 @@ string Student::getFNAME() const
 // * Parameter Description: First name, Last Name (Passed to Student Constructor)
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 English::English(const string FN,const string LN):Student(FN,LN)
 {
@@ -151,7 +151,7 @@ English::English(const string FN,const string LN):Student(FN,LN)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double English::CalcGrade()
 {
@@ -168,7 +168,7 @@ double English::CalcGrade()
 // * Parameter Description: Reference Inputfile
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void English::SaveGrade(istream &refFile)
 {
@@ -188,7 +188,7 @@ void English::SaveGrade(istream &refFile)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 subject English::getSUBJECT() const
 {
@@ -201,7 +201,7 @@ subject English::getSUBJECT() const
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double English::getFinal()
 {
@@ -223,7 +223,7 @@ double English::getFinal()
 // * Parameter Description: First Name, Last name (Stored with Student Class)
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 History::History(const string FN,const string LN):Student(FN,LN)
 {
@@ -240,7 +240,7 @@ History::History(const string FN,const string LN):Student(FN,LN)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double History::CalcGrade()
 {
@@ -257,7 +257,7 @@ double History::CalcGrade()
 // * Parameter Description: Reference Inputfile
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void History::SaveGrade(istream &refFile)
 {
@@ -274,7 +274,7 @@ void History::SaveGrade(istream &refFile)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 subject History::getSUBJECT() const
 {
@@ -287,7 +287,7 @@ subject History::getSUBJECT() const
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double History::getFinal()
 {
@@ -307,7 +307,7 @@ double History::getFinal()
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Math::Math(string FN, string LN):Student(FN,LN)
 {
@@ -320,7 +320,7 @@ Math::Math(string FN, string LN):Student(FN,LN)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Math::CalcGrade()
 {
@@ -337,7 +337,7 @@ double Math::CalcGrade()
 // * Parameter Description: Reference Inputfile
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Math::SaveGrade(istream &refFile)
 {
@@ -359,7 +359,7 @@ void Math::SaveGrade(istream &refFile)
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 subject Math::getSUBJECT() const
 {
@@ -372,7 +372,7 @@ subject Math::getSUBJECT() const
 // * Parameter Description: None
 // *
 // * Date: 03/21/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Math::getFinal()
 {

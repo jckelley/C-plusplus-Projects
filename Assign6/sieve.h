@@ -3,7 +3,7 @@
 	File: sieve.h,bitarray.h,bitarray.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -53,7 +53,7 @@ is entered.
 // * Parameter Description: BitArray Object to check Primes for.
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
  void Sieve(BitArray &BA)
  {

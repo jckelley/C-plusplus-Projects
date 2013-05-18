@@ -3,7 +3,7 @@
 	File: mixed.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -82,7 +82,7 @@ void ConvertToWhole(int &w, int &n, int &d);
 // * variable of the mixed number
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void ConvertToWhole(int &w, int &n, int &d)
 {
@@ -114,7 +114,7 @@ void ConvertToWhole(int &w, int &n, int &d)
 // * fraction
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // * Adapted: This function was inspired by Euclidean's Algorithm. More info on 
 // * this Alogirthm can be found at
 // * http://en.wikipedia.org/wiki/Euclidean_algorithm 
@@ -137,7 +137,7 @@ int Gcd(const int x, const int y)
 // * Parameter Description: A number you wish to have converted to AbsValue
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 int Abs(const int n)
 {
@@ -157,7 +157,7 @@ int Abs(const int n)
 // * and denominator of the second mixed number, resepectivly. 
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool IsEqual(const int w1,const int n1,const int d1,const int w2,const int n2,const int d2)
 {
@@ -187,7 +187,7 @@ bool IsEqual(const int w1,const int n1,const int d1,const int w2,const int n2,co
 // * and denominator of the second mixed number, resepectivly.
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool IsBigger( const int w1,const int n1,const int d1,const int w2,const int n2,const int d2)
 {
@@ -217,7 +217,7 @@ bool IsBigger( const int w1,const int n1,const int d1,const int w2,const int n2,
 // * the mixed number we are checking are passed through. 
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool IsValidNum(const int w, const int n, const int d)
 {
@@ -239,7 +239,7 @@ bool IsValidNum(const int w, const int n, const int d)
 // * main number, fact is the what we are checking if it is a factor of num
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool IsFactor(const int num, const int fact)
 {
@@ -258,7 +258,7 @@ bool IsFactor(const int num, const int fact)
 // * to Simplify and converts it directly.
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void SimplifyToImp( int &w, int &n, int &d)
 {
@@ -337,7 +337,7 @@ void SimplifyToImp( int &w, int &n, int &d)
 // * Parameter Description: A single number that is our whole number
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed::Mixed(const int VAL)
 {
@@ -353,7 +353,7 @@ Mixed::Mixed(const int VAL)
 // * denominator (DEM) are passed. 
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed::Mixed(const int VAL,int NUM,int DEM)
 {
@@ -377,7 +377,7 @@ Mixed::Mixed(const int VAL,int NUM,int DEM)
 // * Parameter Description: None
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 double Mixed::Evaluate()
 {
@@ -394,7 +394,7 @@ double Mixed::Evaluate()
 // * Parameter Description: None
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Mixed::Simplify()
 {
@@ -408,7 +408,7 @@ void Mixed::Simplify()
 // * Parameter Description: None
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 void Mixed::ToFraction()
 {
@@ -435,7 +435,7 @@ void Mixed::ToFraction()
 // * Parameter Description: istream object, and Mixed number. 
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 istream &operator>>(istream &S, Mixed &M)
 {	char fill;
@@ -466,7 +466,7 @@ istream &operator>>(istream &S, Mixed &M)
 // * Parameter Description: ostream object, Mixed number.
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 ostream &operator<<(ostream &S, const Mixed &M)
 {
@@ -484,7 +484,7 @@ ostream &operator<<(ostream &S, const Mixed &M)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator<(const Mixed &M,const Mixed &MM)
 {
@@ -505,7 +505,7 @@ bool operator<(const Mixed &M,const Mixed &MM)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator<=(const Mixed &M, const Mixed &MM)
 {
@@ -525,7 +525,7 @@ bool operator<=(const Mixed &M, const Mixed &MM)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator>(const Mixed &M, const Mixed &MM)
 {
@@ -547,7 +547,7 @@ bool operator>(const Mixed &M, const Mixed &MM)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator>=(const Mixed &M, const Mixed &MM)
 {
@@ -567,7 +567,7 @@ bool operator>=(const Mixed &M, const Mixed &MM)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator==(const Mixed &M, const Mixed &MM)
 {
@@ -586,7 +586,7 @@ bool operator==(const Mixed &M, const Mixed &MM)
 // * Parameter Description: The two mixed numbers being compared
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 bool operator!=(const Mixed &M, const Mixed &MM)
 {
@@ -611,7 +611,7 @@ bool operator!=(const Mixed &M, const Mixed &MM)
 // * Parameter Description: The two mixed numbers being added
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
  Mixed operator+(const Mixed &M, const Mixed &MM)
 {
@@ -655,7 +655,7 @@ return Mixed(w,n,d);
 // * Parameter Description: The two mixed numbers being subtracted
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
  Mixed operator-(const Mixed &M, const Mixed &MM)
 {
@@ -699,7 +699,7 @@ return Mixed(w,n,d);
 // * Parameter Description: the two mixed numbers being multiplied.
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
  Mixed operator*( const Mixed &M, const Mixed &MM)
 {
@@ -726,7 +726,7 @@ return Mixed(w,n,d);
 // * Parameter Description: the 1st Mixed num (M) and the second (MM)
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
  Mixed operator/(const Mixed &M,const Mixed &MM) 
 {
@@ -760,7 +760,7 @@ return Mixed(w,n,d);
 // * Parameter Description: none
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed Mixed::operator++()
 {
@@ -774,7 +774,7 @@ Mixed Mixed::operator++()
 // * Parameter Description: Mixed number we are incrementing
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed Mixed::operator++(int inc)
 {
@@ -788,7 +788,7 @@ Mixed Mixed::operator++(int inc)
 // * Parameter Description: none
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed Mixed::operator--()
 {
@@ -802,7 +802,7 @@ Mixed Mixed::operator--()
 // * Parameter Description: Mixed number we are incrementing
 // *
 // * Date: 02/12/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // ***************************************************************************
 Mixed Mixed::operator--(int dec)
 {

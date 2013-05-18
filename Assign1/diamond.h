@@ -1,5 +1,5 @@
 /*
-Code Author: Joseph C Springer
+Code Author: Joseph C Kelley
 
 Purpose: This is the class header file for the corresponding file 'diamond.cpp' that is to be kept
 along with it. This class is meant to create a Diamond using ASCII characters and then be able to
@@ -39,9 +39,10 @@ public:
 	int Perimeter();
 	double Area();
 	void Grow();
+	void SetSize(const int S);
 	void Shrink();
-	void SetBorder(char border);
-	void SetFill(char fill);
+	void SetBorder(const char border);
+	void SetFill(const char fill);
 	void Draw();
 	void Summary();
 

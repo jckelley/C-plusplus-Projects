@@ -3,7 +3,7 @@
 	File: list.h,palindrome.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -33,7 +33,7 @@ const int MAX_CHAR_LIMIT = 100;
 // * Parameter Description: a string "x"
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 bool isPalinDrome(const string x)
 {

@@ -3,7 +3,7 @@
 	File: sieve.h,bitarray.h,bitarray.cpp
 	Purpose: Class Constructor File
 
-    AUTHOR: Joseph  Springer
+    AUTHOR: Joseph  Kelley
     FSU MAIL NAME: jcs11n@my.fsu.edu
     RECITATION SECTION NUMBER: 01
     
@@ -49,7 +49,7 @@ is entered.
 // * Parameter Description: Index of bit we wish to check inside Byte
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 const unsigned Mask(unsigned int num)
 {
@@ -65,7 +65,7 @@ return (1 << num);
 // * Parameter Description: Int, min numbers of bit you wish to count too
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 BitArray::BitArray(unsigned int n)
 {
@@ -103,7 +103,7 @@ BitArray::BitArray(unsigned int n)
 // * Parameter Description: BitArray Object we wish to copy from
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 BitArray::BitArray(const BitArray &BA)
 {
@@ -118,7 +118,7 @@ BitArray::BitArray(const BitArray &BA)
 // * Parameter Description: None
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 BitArray::~BitArray()
 {
@@ -132,7 +132,7 @@ BitArray::~BitArray()
 // * Parameter Description: None
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 unsigned int BitArray::Length() const
 {
@@ -147,7 +147,7 @@ unsigned int BitArray::Length() const
 // * Parameter Description: Index of Bit we wish to set
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 void BitArray::Set(unsigned int index)
 {
@@ -163,7 +163,7 @@ void BitArray::Set(unsigned int index)
 // * Parameter Description: Indexed bit number we wish to change
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 void BitArray::Unset(unsigned int index)
 {
@@ -178,7 +178,7 @@ void BitArray::Unset(unsigned int index)
 // * Parameter Description: Indexed bit we wish to switch
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 void BitArray::Flip(unsigned int index)
 {
@@ -193,7 +193,7 @@ void BitArray::Flip(unsigned int index)
 // * Parameter Description: Indexed bit we wish to query
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 bool BitArray::Query(unsigned int index) const
 {
@@ -213,7 +213,7 @@ bool BitArray::Query(unsigned int index) const
 // * Parameter Description: Ostream operator, BitArray Object we wish to display
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 ostream &operator<<(ostream& os, const BitArray& a)
 {
@@ -245,7 +245,7 @@ ostream &operator<<(ostream& os, const BitArray& a)
 // * Parameter Description: Two BitArray objects we wish to compare
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 bool operator==(const BitArray &BA1, const BitArray &BA2)
 {
@@ -265,7 +265,7 @@ bool operator==(const BitArray &BA1, const BitArray &BA2)
 // * Parameter Description: Two BitArray objects we are comparing
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 bool operator!=(const BitArray &BA1, const BitArray &BA2)
 {
@@ -283,7 +283,7 @@ bool operator!=(const BitArray &BA1, const BitArray &BA2)
 // * Parameter Description: Bitarray Object we wish to assign
 // *
 // * Date: 03/04/2013
-// * Author: Joseph Springer
+// * Author: Joseph Kelley
 // **************************************************************************
 
 void operator=(const BitArray &BA)
